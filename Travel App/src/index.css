@@ -87,6 +87,7 @@ input {
   flex-direction: column;
   gap: 3.2rem;
   align-items: center;
+  height: 50vh;
 }
 
 .actions button,
@@ -136,4 +137,8 @@ input[type="checkbox"] {
   text-align: center;
   font-weight: 700;
   padding: 3.2rem 0;
+}
+
+.complete {
+  text-decoration: line-through;
 }
